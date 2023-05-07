@@ -1,21 +1,29 @@
-# TeamProfileG
+# Object-Oriented Programming: Team Profile Generator
 
-## Description
+## Object-Oriented Programming
 
-This is a Node.js application that takes in information about employees on a team and  generates an HTML webpage that displays employee information for each person.
+Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
 
-## Challenge 10 
+## Project Description
+
+This is a Node.js application that takes in information about employees on a team and generates an HTML webpage that displays employee information for each person. This application uses Inquirer and Jest. It will be invoked by using the following command:
+
+```bash
+node index.js
+```
 
 ## Installation
 
 Requirements:
 
-* Install Node.js
-* Install Npm
 * Install Inquirer
 * Install Jest
 
-```WHEN I am prompted for my team members and their information
+## Criteria
+
+```bash
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for my team members and their information
 THEN an HTML file is generated that displays a nicely formatted team roster based on user input
 WHEN I click on an email address in the HTML
 THEN my default email program opens and populates the TO field of the email with the address
@@ -33,6 +41,30 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
 
+## Inquirer
+
+Inquirer is a collection of common interactive command line user interfaces.
+
+* providing error feedback
+* asking questions
+* parsing input
+* validating answers
+* managing hierarchical prompts
+
+## Jest
+
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+
+* Zero configuration required.
+* Fast interactive watch mode runs only test files related to changed files and is optimized to give signal quickly.
+* Works with TypeScript, Babel, SystemJS, webpack, and more.
+* Rich configuration of the test suite: you can easily create custom global setups, globals, and other stuff that Jest doesn't use by default.
+* Snapshot testing.
+* Great extensibility: add new matchers or even use the expect interface in your test code.
+* Well-documented migration guides for most of the major JavaScript frameworks.
+* Sandboxed test files and automatic global state resets for every test so no two tests conflict with each other.
+* Built-in code coverage reports.
+
 ## Made by
 
-Aaron P ```Github: aalexandr6``` ```
+aalexandr6 at aalexanderp6@gmail.com.
