@@ -65,6 +65,10 @@ Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 * Sandboxed test files and automatic global state resets for every test so no two tests conflict with each other.
 * Built-in code coverage reports.
 
+## FS
+
+The FS module can be used to read/write content from and to files.
+
 ## Made by
 
-aalexandr6 at aalexanderp6@gmail.com.
+[aalexandr6](https://github.com/aalexandr6) at aalexanderp6@gmail.com
