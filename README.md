@@ -9,7 +9,7 @@ Object-oriented programming (OOP) is a programming paradigm based on the concept
 This is a Node.js application that takes in information about employees on a team and generates an HTML webpage that displays employee information for each person. This application uses Inquirer and Jest. It will be invoked by using the following command:
 
 ```bash
-node index.js
+npm test 
 ```
 
 ## Installation
